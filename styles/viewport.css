@@ -10,6 +10,12 @@
     flex-direction: column;
     gap: 1em
 }
+.btn-box {
+    flex-direction: column;
+}
+#home-hero {
+    flex-direction: column-reverse;
+}
 .contact-form form .input-box input, .contact-form form textarea{
     width: 75%;
 }
@@ -43,5 +49,16 @@
         }
         #activity-content img{
             height: 150px;
+        }
+        .btn-box {
+            gap: 5px;
+            flex-direction: column;
+        }
+        #home-hero {
+            flex-direction: column-reverse;
+        }
+        .about-content .btn-2{
+            font-size: 9px;
+            letter-spacing: normal;
         }
     }
