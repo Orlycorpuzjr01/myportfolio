@@ -1,0 +1,47 @@
+@media only screen and (min-width: 767px) and (max-width: 1110px) {
+.home{
+    flex-direction: column-reverse;
+    padding: initial;
+}
+.home-content{
+   width: 80%;
+}
+.about{
+    flex-direction: column;
+    gap: 1em
+}
+.contact-form form .input-box input, .contact-form form textarea{
+    width: 75%;
+}
+    }
+    @media only screen and (max-width: 766px) {
+        .img-box img{
+            width: 150px;
+            height: 150px;
+        }   
+        .home-content h1{
+            font-size: 25px;
+        
+        }
+        .home-content p{
+            font-size: 18px;
+           
+        }
+        .about-img img{
+            width: 150px;
+            height: 150px;
+        }
+        .about-content h2, .about-content h3{
+            font-size: 20px;
+        }
+        .about{
+            flex-direction: column;
+            gap: 1em
+        }
+        .contact-form form .input-box input, .contact-form form textarea{
+            width: 75%;
+        }
+        #activity-content img{
+            height: 150px;
+        }
+    }
